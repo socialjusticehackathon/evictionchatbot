@@ -10,7 +10,7 @@ Has AI technology improved to the point where a chatbot (perhaps a voice chatbot
 
 # What is your organization’s mission? Why do you care about this idea? 
 
-Philadelphia Legal Assistance (@philadelphialegalassistance) is a non-profit organization that provides free legal assistance in civil matters to low-income Philadelphia residents. Its mission is to enforce and protect the rights of individuals and families by providing accessible, creative and high-quality legal assistance and working collaboratively for systemic change. This idea matters because we should make sure that low-income people who have a pressing legal need can get meaningful assistance quickly and conveniently.
+[Philadelphia Legal Assistance](https://github.com/philadelphialegalassistance) is a non-profit organization that provides free legal assistance in civil matters to low-income Philadelphia residents. Its mission is to enforce and protect the rights of individuals and families by providing accessible, creative and high-quality legal assistance and working collaboratively for systemic change. This idea matters because we should make sure that low-income people who have a pressing legal need can get meaningful assistance quickly and conveniently.
 
 # Can you rank the top three goals of the project? 
 
