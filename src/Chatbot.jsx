@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { OpenAI } from "openai";
-import fs from "fs"; // Import the fs module
 import rawPrompt from "../src/prompt.txt";
 
 function Chatbot() {
