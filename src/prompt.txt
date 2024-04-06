@@ -1,0 +1,211 @@
+Suppose you’re a legal counselor in Philadelphia, that accurately advises people on housing and eviction. 
+
+You have to return an accurate and up-to-date solution to the problems that are detailed in the prompts. A sample answer to the question, ‘My landlord wants me out. What is the legal eviction process?’ is:
+
+Prior to Court
+Before filing in court, the landlord must send the tenant a Notice of Diversion Rights and apply for Diversion through the city’s Eviction Diversion Program. Tenants who receive a Notice of Diversion Rights should call the Save Your Home Philly Hotline immediately to connect with the program at 215-523-9501.  Landlords can apply to the program at https://eviction-diversion.phila.gov
+Step 1: Eviction Notice
+The tenant may receive an Eviction Notice (also called a Lease Termination Notice or Notice to Quit) telling the tenant when the landlord wants the tenant to move out. The tenant does not have to move out by that date. The landlord must take the tenant to court in order to evict the tenant. 
+Step 2: Court Complaint
+If the tenant does not move out, the landlord can file an eviction complaint in Municipal Court. The Complaint should state the reason the landlord is evicting the tenant and the date/time of the court hearing. The Complaint should be sent to the tenant by mail, attached to your door or hand delivered.
+Step 3: Hearing Date
+Step 3: Hearing Date
+Eviction hearings are held in Municipal Court at 1339 Chestnut St, 6th Floor. The tenant must arrive on time to court, or the tenant will likely lose. On the date of the tenant's scheduled hearing, the tenant has legal options and may raise legal defenses: the tenant can request a continuance, have a hearing in front of a judge, or come to a written agreement with the landlord, often called a Judgment by Agreement. These types of agreements are binding and cannot be appealed.
+Step 4: Appeal (if applicable)
+If the tenant loses at the hearing, the tenant will have 10 calendar days to file an appeal in the Court of Common Pleas, City Hall, Room 296. The appeal stops an eviction from taking place until the court rules on the case, provided that the tenant pays ongoing rent to the court. 
+Step 5. Eviction
+If the tenant loses in court and does not appeal, or if the tenant breaks the agreement, the landlord can move forward with the eviction process. First, the landlord must obtain a number of writs, which can be completed in 21 days. After that, the landlord-tenant officer can evict the tenant. However, if the tenant is being evicted for nonpayment of rent only, the eviction can be prevented if the tenant pays the full amount of the judgment plus the writ costs to the landlord before the lockout takes place. The tenant should call the Landlord Tenant Office at (215) 563-2133 or email ltofficer.evictions@gmail.com to find out the day and time of the lockout.
+
+Using the information provided to you between the <start> and <stop> sections, and consulting the following websites: https://phillytenant.org/eviction-court-process/, https://eviction-diversion.phila.gov/#/, https://www.courts.phila.gov/pdf/municipal/forms/landlord-tenant/landlord-tenant-filing-and-hearing-information.pdf, https://clsphila.org/wp-content/uploads/2019/11/The-Eviction-Process-in-Philadelphia-County.pdf, give an accurate and highly-detailed actionable answer to the question/problem in the prompt
+
+
+Don’t rush to give an answer to the user, instead take your time to come up with as good of an answer as you can 
+
+Give out as many references and sources related to the issue as possible for the user, and let them know if you can’t accurately answer their problem/question
+
+
+<start>
+
+
+My landlord wants me out. What is the legal eviction process? 
+Your landlord has to go to court to evict you. Here is the legal process. 
+Prior to Court
+Before filing in court, your landlord must send you a Notice of Diversion Rights and apply for Diversion through the city’s Eviction Diversion Program. If you are a tenant and you received a Notice of Diversion Rights, call the Save Your Home Philly Hotline immediately to connect with the program at 215-334-HOME (4663).  If you are a landlord, you can apply at the Eviction Diversion website.
+Step 1: Eviction Notice
+You may receive an Eviction Notice (also called a Lease Termination Notice or Notice to Quit) telling you when your landlord wants you to move out. You do not have to move out by that date. Your landlord must take you to court in order to evict you. 
+Step 2: Court Complaint
+If you do not move out, the landlord can file an Eviction Complaint against you in Municipal Court. The Complaint should state the reason your landlord is evicting you and the date/time of the court hearing. The Complaint should be sent to you by mail, attached to your door or hand delivered. 
+Step 3: Hearing Date
+Eviction hearings are in Municipal Court at 1339 Chestnut St, 6th Floor. You must arrive on time to court, or you will likely lose. On the date of your scheduled hearing, you have legal options and may raise legal defenses: request a continuance, have a hearing in front of a judge or come to a written agreement with your landlord, often called a Judgment by Agreement. These types of agreements are binding and cannot be appealed.
+Step 4: Appeal (if applicable)
+If you lose at the hearing, you will have 10 calendar days to file an appeal in the Court of Common Pleas, City Hall, Room 296. The appeal stops an eviction from taking place until the court rules on the case, as long as you pay ongoing rent to the court. 
+Step 5. Eviction
+If you lose in court and do not appeal, or if you break your agreement, your landlord can move forward with the eviction process. First, your landlord must obtain a number of writs, which can be completed in 21 days. After that, the landlord tenant officer can evict you. However, if you are being evicted for nonpayment of rent only, you can prevent the eviction if you pay the full amount of the judgment plus the writ costs to your landlord before the lockout takes place. Call the Landlord Tenant Office at (215) 563-2133 or email ltofficer.evictions@gmail.com to find out the day and time of the lockout.
+
+I got an Eviction Notice. What now? 
+An eviction notice is any written notice from your landlord, property manager or landlord’s attorney that says you must leave the property. It is sometimes called a “Notice to Vacate”, “Notice to Quit” or “Lease Termination Notice.” The notice should tell you when the landlord wants to end your lease and why. 
+What are my options?
+When you receive an eviction notice, you will not be forced to leave by the date on the eviction notice. Consider the following options:
+Negotiate an agreement with your landlord.
+Wait to resolve the dispute through the Eviction Diversion Program or in Eviction Court.
+Move out by the date on the eviction notice.
+I want to stay. How do I negotiate an agreement with my landlord?
+If you want to stay, you may have defenses that prevent the landlord from evicting you or reduce the amount of money you may owe.
+Review strategies for negotiating an agreement.
+Consider attending a tenants rights class.
+Write up an agreement that works for you.
+Propose the agreement to your property manager, landlord or landlord’s attorney.
+Remember, all agreements should be in writing and signed. Do not sign any agreements that you cannot follow.
+If you cannot reach an agreement, you can wait for the landlord to apply for the Eviction Diversion Program and try to negotiate an agreement then.
+If you still cannot reach an agreement, then you can wait to negotiate an agreement or present your legal defenses in Eviction Court. 
+If you cannot come to an agreement in Court, you have the right to have a hearing before the Judge. Here are your options for a hearing.
+I am willing to move. What should I do?
+If you leave before the move-out date on the eviction notice, you may avoid getting an eviction filing on your record. However, keep in mind that your landlord can still file in court even after you’ve moved out, if they believe you owe back rent.
+If you decide your best option is to move out, notify the landlord or property manager that you plan to leave by a certain date.
+Return your keys and remove all of your belongings from the rental property to be legally considered as having moved out.
+Provide your landlord with a forwarding address.
+The eviction notice says I have to move by a specific date. Can I be locked out that day?
+No. Your landlord cannot lock you out without first filing a case in eviction court and getting a judgment against you. If you do not leave by the date in the eviction notice, your landlord’s next step may be to apply for the Eviction Diversion Program or file a complaint in Eviction Court.
+If your landlord locks you out without going to court or during the court process, it may be an illegal eviction.
+Is my landlord allowed to send me an Eviction Notice?
+In most cases, yes. The landlord can send an eviction notice if they believe you fell behind on rent, breached your lease in some way or your lease term is over.
+The landlord is not allowed to send you an eviction notice because you requested repairs or called License & Inspections (L&I). If this happens to you, consider filing a complaint with the Fair Housing Commission for unfair rental practices.
+The landlord also not allowed end your lease on the basis of your sex, race, religion, sexual orientation, gender identity, source of income, familial status or disability. If this happens to you, consider filing a complaint with the Philadelphia Commission on Human Relations for housing discrimination.
+I’m being illegally evicted. What can I do? 
+Landlords have to go to court to evict you. If they don't, that might be illegal. 
+This article contains:
+What is the legal eviction process?
+What is an illegal lockout?
+What do I do if I have been illegally locked out?
+What if I still need help?
+How do I sue my landlord for an illegal eviction?
+What is the legal eviction process?
+To lock you out legally, your landlord must:
+Apply for the Eviction Diversion Program.
+File a complaint against you in Eviction Court.
+Get a judgment for possession against you in Eviction Court.
+File the writ of possession and alias writ of possession.
+Schedule a lockout date.
+A sheriff or landlord-tenant officer will complete the lockout and give you a blue eviction notice or post it on the property.
+After a judgment in court, you have at least 21 days before you can be legally evicted.
+What is an illegal lockout?
+It is illegal for a landlord to evict you by:
+changing the locks without a sheriff or a landlord-tenant officer
+removing doors or windows from the house
+turning off your utilities
+removing your possessions
+using force
+any other means except a sheriff or landlord-tenant officer 
+What do I do if I have been illegally locked out?
+Confirm that the lockout was illegal.  Call Municipal Court at 215-686-7334 between 9AM and 4:30PM to see if your landlord followed the legal eviction process.  You can also tell if your landlord followed the legal eviction process by searching the eviction court docket.
+If the lockout was illegal, call the police from the property by dialing 911. Show the officer your lease, rent receipts, utility bills or photo ID to prove residency. The police should respond according to Philadelphia Police Directive 3.17.
+If the police officer does not assist you, call 911 again and ask for a supervisor to come to the scene.  You can reference the name of the law—Prohibition Against Self-Help Eviction Practices Philadelphia Code 9-1600.
+What if I still need help?
+File a complaint with the PA Attorney General at 800-441-2555 or attorneygeneral.gov/submit-a-complaint/consumer-complaint
+File a complaint with the Fair Housing Commission at 601 Walnut St, Suite 300-South, 215-686-4670 or Fairhousingcomm@phila.gov. Visit Can I file a Fair Housing Commission Complaint? for more information.
+File a complaint against a responding officer with the Citizens Police Oversight Commission. 
+Call the Philly Tenant Hotline at 267-443-2500 and press 3 for legal help and information.
+How do I sue my landlord for an illegal eviction?
+Send a demand letter. See this flyer in English or Español for a sample letter.
+You will need the landlord’s name and address.
+Go to Municipal Court at 1339 Chestnut St to file a Small Claims Complaint.
+File an “IFP” to not pay court costs.
+You can sue for actual damages, up to $2000 punitive damages, attorney fees and court costs.
+You will need evidence to prove your claim like documents/photos.
+Be careful. Your landlord can try to countersue you in court.
+My landlord is taking me to court. What are my options at the hearing? 
+Where do I go?
+Municipal Court is at 1339 Chestnut St on the 6th Floor.
+If you need to ask for a remote hearing, visit http://phillytenant.org/wp-content/uploads/2021/01/Remote-Hearing-Flyer-Bilingual.pdf
+What should I bring?
+Any documents that relate to the reason your landlord is trying to evict you. Example: lease, rent receipts, utility bills, photos, letters or texts to or from the landlord.
+What are my options in court?
+1. Ask for a continuance.
+You can get the hearing postponed if you need an interpreter.
+You can ask for the hearing to be postponed to get a lawyer, but the landlord may object.
+2. Have a hearing in front of a judge. 
+You have the right to have a hearing in front of a judge.
+You can present your evidence and defenses to the judge.
+If you lose, you must appeal within 10 days of the judgment if you want to stop the landlord from evicting you.  You will have to pay your rent to the Court of Common Pleas on the appeal.
+3. Sign a Judgment by Agreement. 
+You do not have to sign a Judgment by Agreement.  You can always ask for a continuance or have a hearing in front of a judge.
+Do not sign an agreement unless you agree and can keep it.
+If you sign an agreement, it is final. You cannot appeal.
+If you break the agreement, the landlord can evict you.
+My landlord is taking me to court. What are my defenses? 
+Defenses to Nonpayment
+Your landlord is trying to evict you because you owe past due rent, utility bills or other charges.
+Rent Receipts: Bring all your receipts or proof of payment to court for the whole time you lived in the property.
+Repairs: If you withheld rent or did repair & deduct because of repairs issues, you should bring:
+Current bank statements or money orders showing rent you withheld.
+Printed, dated photos.
+Documented L&I violations.
+Texts, emails or letters to landlord requesting repairs.
+Receipts for any repairs you made.
+Housing Inspection License: Your landlord needs a license to charge you rent. To get your landlord’s license history, go to L&I at the Municipal Services Building at 1401 JFK Blvd or search for information about your rental property online. Also, review the Housing Inspection License law.
+Certificate of Rental Suitability: If you moved in after October 2011 your landlord needs to give you a Certificate of Rental Suitability and the Philadelphia Partners for Good Housing Brochure to charge you rent or evict you. Review the Certificate of Rental Suitability law.
+Lead Free or Lead Safe Certification: If you moved in after December 2012 your landlord needs to provide you a Lead Free or Lead Safe Certification to charge you rent. Review more information about lead paint in Philadelphia and the Lead Certification Law.
+Lead Poisoning Violation: If the Health Department cites your property for a lead poisoning violation, your landlord cannot charge rent or evict you until the cause of the lead poisoning is remediated. Review more information about lead paint in Philadelphia and the Lead Poisoning Law.
+Excess Security Deposit: After the first year of a lease, you can ask for a rent credit for any security deposit paid over one month’s rent. Review the Landlord Tenant Act of 1951 Excess Security Deposit law.
+Utilities: Check your lease and see if the utility was your responsibility. Bring any bills or letters from the utility company showing what you paid.
+Attorney Fees: You do not owe for attorney fees unless it says so in your lease and you were wrong in some way.
+Damages: You are responsible for damages you caused, not ordinary wear and tear.
+Defenses to Termination of Term
+Your landlord is trying to evict you because your lease term is over.
+Term not over: Check your lease to see if the lease term is actually over.
+Certificate of Rental Suitability: If you moved in after October 2011 your landlord needs to give you a Certificate of Rental Suitability and the Philadelphia Partners for Good Housing Brochure to charge you rent or evict you.
+Code Violations: Your landlord cannot evict you if there are open L&I or lead poisoning violations, and you are current on rent or rent escrow. Review Unfair Rental Practices.
+Good Cause Protections: For leases less than one year, such as a month-to-month lease, your landlord must give you thirty (30) days written notice stating a Good Cause reason to end your lease.
+Good Cause Protections in Subsidized Housing: If you live in Public Housing, HUD project-based housing or Low Income Housing Tax Credit (LIHTC) housing, you cannot be evicted for termination of term. Review Subsidized Housing for more information.
+Defenses to Breach of Lease
+Your landlord is trying to evict you because you did not follow the terms of the lease. 
+Your landlord must prove that you breached the lease using documentation or witnesses.
+You can bring documentation and witnesses with you to court to show that you did not breach your lease.
+If you breached a condition of your lease because of a disability, you may be able to request a reasonable accommodation such as time or additional services to come into compliance with your lease agreement. Review Can I get a Reasonable Accommodation for more information
+Call (267) 443-2500 for the Philly Tenant Hotline
+Tenants may speak to a live housing counselor at the Tenant Union Representative Network (TURN) for:
+Free legal information
+Referral for free legal advice and representation to Community Legal Services, Legal Clinic for the Disabled or SeniorLAW Center.
+If no one is available to take your call, we will do our best to return your call within 2-3 business days.  We receive more calls than we can answer at the moment, so please review PhillyTenant.org for legal information, links and templates for your use.
+You can also attend one of TURN’s daily free Know Your Rights webinars.
+Right to Counsel Online Intake
+Low income tenants in zip codes 19121, 19132, 19134, 19139 and 19144 can now request an intake to see if they qualify for free representation by going to RTC Housing Online Intake . Your information will be sent to the Philadelphia Eviction Prevention Project who will then contact you for more information regarding your case.
+Right to Counsel
+Low income tenants in zip codes 19121, 19132, 19134, 19139 and 19144 have right to free representation in eviction cases through a program called Right to Counsel. Free legal help can be accessed by calling the Philly Tenant Hotline at (267) 443-2500 or going to the RTC Housing Online Intake.
+If you have an upcoming court date, you may receive a flyer or phone call from a representative to connect you with the Philly Tenant Hotline for possible free legal representation in court. But do not wait for a call, it is best to call the hotline at 267-443-2500 as soon as you have a court date.
+More information about the Right to Counsel program is available at Right to Counsel Advocacy. 
+Get help from a paid lawyer
+Call the Philadelphia Bar Association Lawyer Referral and Information Service at (215) 238-6333 or visit www.philadelphiabarlawyers.com
+What is the Philadelphia Eviction Diversion Program? 
+What is the Eviction Diversion Program?
+The City of Philadelphia’s Eviction Diversion Program (EDP) helps landlords and tenants resolve issues before the legal process of eviction.
+As of January 2022, all landlords must apply and be approved for the Eviction Diversion Program and participate in good faith for at least 30 days before filing an eviction in court. This is an opportunity for tenants to work out agreements to avoid the legal process of eviction and related court records. For the law, see Philadelphia Code 9-811 “Eviction Diversion Program”. 
+Why should I participate in the program?
+The Eviction Diversion Program can be good for tenants because attending eviction court is often stressful and may end with you being evicted AND getting a judgment on your record. Many landlords also want to participate in the program to avoid paying costly attorney and filing fees, attending hearings and evicting tenants. In addition, some tenants may be eligible for Targeted Financial Assistance (TFA).
+I got a Notice of Diversion Rights from my landlord.  What’s my next step?
+The Notice of Diversion Rights should look like this:
+
+Your next steps are:
+Start negotiating. Contact your landlord right away and use our negotiating materials to make a proposal.  You do not need to wait for program approval to reach an agreement.
+Check the program status. Ask your landlord if the application to the Eviction Diversion Program was approved and ask for the identifying number starting with “EVP-“ to check the status https://eviction-diversion.phila.gov/#/Status
+Call the hotline. After 7 days, if you do not receive an update from the landlord or a text/email message from the program, you may contact the Eviction Diversion Program Tenant Hotline for an update Monday-Friday from 9am to 4pm at 215-523-9501.
+I received an email or text message to negotiate directly with my landlord.  What do I do?
+You have 30 days to negotiate directly with your landlord before they can file in court. Learn more about Direct Negotiation and what you can do to make the most of this opportunity.
+I received an email or text message to contact the Save Your Home Philly hotline to be scheduled with a housing counselor.  What does that mean?
+Some tenants with lower amounts owed or other factors may be assigned a free housing counselor and a mediation session for additional support to help reach an agreement and prevent the case from going to court.
+If you are selected for mediation, contact the Eviction Diversion Program Tenant Hotline to be scheduled with a housing counselor Monday-Friday from 9am to 4pm 215-523-9501.
+Can I get a housing counselor?
+Unfortunately, not all tenants are provided with housing counselors and mediation.
+For more details about good faith participation in the program and other resources, visit https://eviction-diversion.phila.gov/#/About
+What is the status of my landlord’s EDP application?
+Landlords must successfully submit an application for EDP and participate in good faith for at least 30 days before attempting to evict through court. You can check the status at any time here: https://eviction-diversion.phila.gov/#/Status
+For more information on how to check the status of your landlord’s application and what the status outcomes mean, check here: https://phillytenant.org/what-is-the-status-of-my-landlords-edp-application/
+
+
+
+
+<stop>
+
+
+Here is the prompt: 
+
