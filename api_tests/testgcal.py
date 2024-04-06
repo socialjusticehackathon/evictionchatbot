@@ -2,6 +2,7 @@
 import sys
 import datetime
 import os.path
+import json
 
 from google.auth.transport.requests import Request
 from google.oauth2 import service_account
@@ -35,9 +36,10 @@ def main():
             page_token = calendar_list.get('nextPageToken')
             if not page_token:
                 break
+        appt_count = 1
+        appointments = []
         now = datetime.datetime.utcnow().isoformat() + "Z"    # 'Z' indicates UTC time
         for calendar in calendars:
-            print(f"Calendar: {calendar['name']}")
             events_result = (
                     service.events()
                     .list(
@@ -58,9 +60,11 @@ def main():
             # Prints the start and name of the next 10 events
             for event in events:
                 start = event["start"].get("dateTime", event["start"].get("date"))
+                end = event["end"].get("dateTime", event["end"].get("date"))
                 if 'available' in event["summary"].lower():
-                    print(start, event["summary"])
-
+                    appointments.append({'id': appt_count, 'organization': calendar['name'], 'start': start, 'end': end})
+                    appt_count += 1
+        print(json.dumps(appointments))
     except HttpError as error:
         print(f"An error occurred: {error}")
 
