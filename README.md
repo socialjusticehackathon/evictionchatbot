@@ -1,6 +1,6 @@
 # Idea Name
 
-Create a chatbot to assist tenants going through eviction, so they do not have to wait on hold to speak to an advocate
+Create a chatbot to assist tenants going through eviction, so they do not have to wait on hold to speak to an advocate.
 
 # Describe the idea. What is the overall mission and objective of the project? 
 
@@ -10,11 +10,11 @@ Has AI technology improved to the point where a chatbot (perhaps a voice chatbot
 
 # What is your organization’s mission? Why do you care about this idea? 
 
-Philadelphia Legal Assistance is a non-profit organization that provides free legal assistance in civil matters to low-income Philadelphia residents. Its mission is to enforce and protect the rights of individuals and families by providing accessible, creative and high-quality legal assistance and working collaboratively for systemic change. This idea matters because we should make sure that low-income people who have a pressing legal need can get meaningful assistance quickly and conveniently.
+Philadelphia Legal Assistance (@philadelphialegalassistance) is a non-profit organization that provides free legal assistance in civil matters to low-income Philadelphia residents. Its mission is to enforce and protect the rights of individuals and families by providing accessible, creative and high-quality legal assistance and working collaboratively for systemic change. This idea matters because we should make sure that low-income people who have a pressing legal need can get meaningful assistance quickly and conveniently.
 
 # Can you rank the top three goals of the project? 
 
-1. Test whether a chatbot (ChatGPT or another LLM) can provide adequate answers to questions about the eviction process in Philadelphia.
+1. Test whether a chatbot (ChatGPT or another Large Language Model (LLM)) can provide adequate answers to questions about the eviction process in Philadelphia.
 2. Test whether a chatbot can determine a user's current status in the eviction process by asking questions of the user.
 3. Test whether a chatbot can, by having an open-ended conversation with a user, schedule the user for an appointment from a list of available appointments.
 
@@ -32,10 +32,10 @@ The goal of the project is not necessarily to put a chatbot into production. The
 Philadelphia Legal Assistance (PLA) has expertise on the Eviction Diversion Program, which is the first stage of the eviction process in Philadelphia. Later on, we may tap into the expertise of the advocates at Community Legal Services.
 
 # Who are the key contacts and stakeholders? What are their roles, involvement expectations and skill sets? 
-The primary point of contact is Jonathan Pyle from Philadelphia Legal Assistance. He can be reached at 215-391-9686 and jhpyle@gmail.com. He is an attorney and also a coder. He is the developer of the guided interview platform Docassemble. Jonathan will be at the hackathon all weekend to lead the team that works on this project.
+The primary point of contact is Jonathan Pyle from Philadelphia Legal Assistance. He can be reached at 215-391-9686, jhpyle@gmail.com, or through GitHub at @jhpyle. He is an attorney and also a coder. He is the developer of the guided interview platform [docassemble](https://github.com/jhpyle/docassemble). Jonathan will be at the hackathon all weekend to lead the team that works on this project.
 
 # Target Delivery Date - and any particular drivers of that date
-No target delivery date.
+No target delivery date. The goal of the project is to learn.
 
 # Anything else we should know? 
 This project is open to people of any level of experience with technology. It is largely a "prompt engineering" project.
