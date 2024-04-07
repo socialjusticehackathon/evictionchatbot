@@ -1,4 +1,4 @@
-# Evita - Eviction based ChatGPT Assistant
+# Evita - Eviction based AI Assistant
 
 # Goal
 
@@ -6,7 +6,7 @@ Create a chatbot to assist tenants going through eviction, so they do not have t
 
 # Deliverables
 
-* [EVITA] - development version of the Chatbot, hosted on Vercel
+* [EVITA] - development version of the chatbot, hosted on Vercel
 * [Presentation about EVITA]
 
 # Team
@@ -28,7 +28,7 @@ Has AI technology improved to the point where a chatbot (perhaps a voice chatbot
 
 # What are the top three goals of the project?
 
-1. Test whether a chatbot (ChatGPT or another Large Language Model (LLM)) can provide adequate answers to questions about the eviction process in Philadelphia.
+1. Test whether a chatbot a Large Language Model (LLM) can provide adequate answers to questions about the eviction process in Philadelphia.
 2. Test whether a chatbot can determine a user's current status in the eviction process by asking questions of the user.
 3. Test whether a chatbot can, by having an open-ended conversation with a user, schedule the user for an appointment from a list of available appointments.
 
@@ -38,7 +38,7 @@ The goal of the project is not necessarily to put a chatbot into production. The
 
 # Project Scope
 
-We set out to develop a chatbot that is educated in Philadelphia-specific eviction facts and that can carry on a conversation with a tenant who is facing eviction. We also worked on a number of ChatGPT-based automation features, which we have not yet had time to integrate into the final chatbot. The source code for these is in the `prototypes` branch of the repository.
+We set out to develop a chatbot that is educated in Philadelphia-specific eviction facts and that can carry on a conversation with a tenant who is facing eviction. We also worked on a number of LLM-based automation features, which we have not yet had time to integrate into the final chatbot. The source code for these is in the `prototypes` branch of the repository.
 
 # Are there other dependencies, resources, or partners you anticipate using or needing in order to deliver the project?
 
