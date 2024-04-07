@@ -63,3 +63,4 @@ Other data sources included:
 
 [Presentation about EVITA]: https://www.canva.com/design/DAGBvgKOw2o/M1vnyDLa8rJX22tDBg3Q1Q/edit?utm_content=DAGBvgKOw2o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 [Philadelphia Legal Assistance]: https://philalegal.org
+[EVITA]: https://evictionchatbot.vercel.app/
