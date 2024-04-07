@@ -40,11 +40,17 @@ The goal of the project is not necessarily to put a chatbot into production. The
 
 We set out to develop a chatbot that is educated in Philadelphia-specific eviction facts and that can carry on a conversation with a tenant who is facing eviction. We also worked on a number of LLM-based automation features, which we have not yet had time to integrate into the final chatbot. The source code for these is in the `prototypes` branch of the repository.
 
+# Tech stack
+
+* React.js
+* Tailwind CSS
+* OpenAI API
+
 # Are there other dependencies, resources, or partners you anticipate using or needing in order to deliver the project?
 
 Philadelphia Legal Assistance (PLA) has expertise on the Eviction Diversion Program, which is the first stage of the eviction process in Philadelphia. Later on, we may tap into the expertise of the advocates at Community Legal Services.
 
-# Who are the key contacts and stakeholders? What are their roles, involvement expectations and skill sets?
+# Who are the key contacts and stakeholders?
 
 The primary point of contact is Jonathan Pyle from Philadelphia Legal Assistance. He can be reached at 215-391-9686, jhpyle@gmail.com, or through GitHub at @jhpyle.
 
@@ -54,7 +60,7 @@ There is no target delivery date. The goal of the project is to learn and ultima
 
 # Data for this Project
 
-The main "data" for the project is not data per se, but legal information. Jonathan Pyle (@jhpyle) provided written materials containing the legal knowledge that the chatbot will need to know in order to provide helpful information to tenants. Zakir consolidated the materials into a prompt.
+The main "data" for the project is not data per se, but legal information. Jonathan Pyle (@jhpyle) provided written materials containing the legal knowledge that the chatbot will need to know in order to provide helpful information to tenants. Zakir (@zakir-jiwani) consolidated the materials into a prompt.
 
 Other data sources included:
 - The code violations dataset on opendataphilly.org.
