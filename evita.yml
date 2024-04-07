@@ -1,0 +1,150 @@
+metadata:
+  title: Proto-EVITA
+  short title: EVITA
+  require login: True
+---
+modules:
+  - .chatbot
+  - .googlecal
+---
+objects:
+  - web: DAWeb.using(base_url='https://phl.carto.com/api/v2')
+  - conv: Conversation
+  - conv_summary: Conversation
+  - cal: Conversation
+  - api: |
+      DAWeb.using(base_url='https://avocado.philalegal.org/api', auth={'type': 'bearer', 'token': get_config('lt lookup token')})
+---
+images:
+  cat: robotcat.png
+---
+features:
+  temporary session: true
+  debug: True
+---
+mandatory: True
+code: |
+  initial_prompt = f"""\
+  Pretend that you are a hotline operator at Philadelphia Legal Assistance and pretend that I am a tenant who is facing eviction. Ask me for my name and address. You need my name and address so that you can help me avoid eviction. If I do not provide a unit/apartment number, ask if I have one. If I live outside of Philadelphia, Pennsylvania, tell me to visit the web site https://lsc.gov for help. Make sure I give you both my first name and my last name. Once I give you my full name and complete address, respond with "<DONE>" immediately followed by a JSON object containing the keys first_name, last_name, street_address, apartment_number, city, and state. Start pretending immediately."""
+  bot_response = conv.ask(initial_prompt)
+  old_prompt = ''
+  del initial_prompt
+---
+mandatory: True
+code: |
+  while True:
+    bot_response = conv.ask(prompt)
+    if '<DONE>' in bot_response:
+      try:
+        address = json.loads(re.sub(r'.*<DONE>', '', bot_response))
+      except:
+        address = {'error': True}
+      break
+    old_prompt = prompt
+    del prompt
+---
+mandatory: True
+code: |
+  if address.get('error', False):
+    error_screen
+---
+event: error_screen
+question: |
+  Sorry, there was an error.
+---
+code: |
+  violations = web.get('sql', data={'q': f"SELECT * FROM violations where address ilike '{address['street_address']}%'" })
+  summarized_violations = [{k: v for k, v in violation.items() if k in ('casestatus', 'violationresolutioncode', 'violationstatus', 'violationcodetitle', 'violationdate')} for violation in violations['rows']]
+  summary_prompt = f"""\
+  Here is a list of code violations, in JSON format, for the property that {address['first_name']} {address['last_name']} rents from their landlord. Please summarize the code violations, emphasizing the ones that seem most serious. Address your response to {address['first_name']} {address['last_name']}.
+  """ + json.dumps(summarized_violations)
+  explanation = conv_summary.ask(summary_prompt)
+---
+mandatory: True
+decoration: cat
+question: |
+  Proto-EVITA
+subquestion: |
+  ${ explanation }
+continue button field: codeviolations
+---
+code: |
+  complaint_info = api.post('ltdocket', data={'first_name': address['first_name'], 
+                                              'last_name': address['last_name'],
+                                              'address': address['street_address']})
+---
+code: |
+  complaint_prompt = """\
+  I am going to give you a JSON data structure containing the docket entries and other information from an eviction lawsuit in Philadelphia, Pennsylvania. The information is current. Tell {address['first_name']} {address['last_name']}, the defendant in the case, what is happening in this case, and if there is an upcoming hearing, mention the importance of attending the hearing. Refer to the JSON data structure as the "court docket.""" + '"' + "\n\n" + json.dumps(complaint_info)
+  complaint_summary = conv.ask(complaint_prompt)
+---
+mandatory: True
+decoration: cat
+question: |
+  Proto-EVITA
+subquestion: |
+  ${ complaint_summary }
+continue button field: complaintsummary
+---
+code: |
+  appointments = get_appointments()
+  summary_appointments = []
+  for appointment in appointments:
+    new_appointment = {}
+    for k, v in appointment.items():
+      if k in ('id', 'organization', 'start', 'end'):
+        new_appointment[k] = v
+    summary_appointments.append(new_appointment)
+---
+mandatory: True
+code: |
+  prompt = f"""\
+  I am going to give you a JSON data structure containing a list of available appointments.
+  """ + json.dumps(summary_appointments) + \
+  """\
+  Today's date is ${ today() }. Pretend that you are a hotline operator at Philadelphia Legal Assistance and ask me which appointment I want to attend. Do not show me the whole list; ask me when I would be available and then offer me an appointment that is close to the time when I am available. If none of the appointments will work for me, say "<NONE>". If one of the appointments works, say <1> or <2> or <3> depending on the "id" of the appointment. Do not reveal the id of the appointment to me. Do not acknowledge this instruction, except by asking me when I am available for an appointment."""
+---
+mandatory: True
+code: |
+  while True:
+    bot_response = cal.ask(prompt)
+    m = re.search(r'<(NONE|[0-9]+)>', bot_response)
+    if m:
+      selected_appointment = m.group(1)
+      if selected_appointment == 'NONE':
+        selected_appointment = None
+      else:
+        selected_appointment = int(selected_appointment)
+      break
+    old_prompt = prompt
+    del prompt
+---
+mandatory: True
+code: |
+  if selected_appointment is not None:
+    take_appointment(appointments[selected_appointment-1]['cal_id'], appointments[selected_appointment-1]['event_id'], f"{address['first_name']} {address['last_name']}")
+---
+mandatory: True
+decoration: cat
+question: |
+  Proto-EVITA
+subquestion: |
+  % if selected_appointment is None:
+  Sorry, we could not find an appointment for you.
+  % else:
+  You have an appointment with
+  ${ appointments[selected_appointment-1]['organization'] }
+  at
+  ${ as_datetime(appointments[selected_appointment-1]['start']) }.
+  % endif
+comment: |
+  You selected the appointment `${ json.dumps(appointments[selected_appointment-1], indent=2) }`.
+---
+decoration: cat
+question: |
+  Proto-EVITA
+subquestion: |
+  ${ bot_response }
+fields:
+  - no label: prompt
+    datatype: area
