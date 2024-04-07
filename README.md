@@ -7,7 +7,7 @@ Create a chatbot to assist tenants going through eviction, so they do not have t
 # Deliverables
 
 * [EVITA] - development version of the Chatbot, hosted on Vercel
-* [Presentation about EVITA]: https://docs.google.com/presentation/d/1dcdziyrvhOPOpAoQDHUvN53njSDLvt8QxWQ1Xukuuc4/edit?usp=sharing
+* [Presentation about EVITA]
 
 # Team
 
@@ -61,5 +61,5 @@ Other data sources included:
 - The eviction court dockets, available through an API provided by Philadelphia Legal Assistance.
 - Google Calendar, through its API.
 
-[Presentation about EVITA]: https://docs.google.com/presentation/d/1dcdziyrvhOPOpAoQDHUvN53njSDLvt8QxWQ1Xukuuc4/edit?usp=sharing
+[Presentation about EVITA]: https://www.canva.com/design/DAGBvgKOw2o/M1vnyDLa8rJX22tDBg3Q1Q/edit?utm_content=DAGBvgKOw2o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 [Philadelphia Legal Assistance]: https://philalegal.org
